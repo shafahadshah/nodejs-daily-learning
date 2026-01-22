@@ -1,0 +1,15 @@
+{
+  "name": "zip-unzip-demo",
+  "version": "1.0.0",
+  "description": "Zip and unzip folders using Node.js streams",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "zip": "node zip.js",
+    "unzip": "node unzip.js"
+  },
+  "dependencies": {
+    "archiver": "^6.0.2",
+    "unzipper": "^0.10.14"
+  }
+}
