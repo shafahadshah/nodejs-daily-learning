@@ -1,0 +1,9 @@
+{
+  "name": "node-task-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "rename": "node 01-rename-files.js",
+    "clean": "node 02-clean-folder.js",
+    "organize": "node 03-organize-by-extension.js"
+  }
+}
