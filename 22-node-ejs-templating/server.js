@@ -25,7 +25,7 @@ app.get("/users", (req, res) => {
   const users = ["John", "Jane", "Alice", "Bob"];
   res.render("users", { users });
 });
-
+// Server Listen
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
