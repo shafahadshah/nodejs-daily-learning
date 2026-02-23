@@ -4,6 +4,10 @@ const app = express();
 const logger = require('./middleware/logger');
 const auth = require('./middleware/auth');
 const errorHandler = require('./middleware/errorHandler');
+const notFound = require('./middleware/notFound');
+
+app.use(notFound);      // 404 handler
+app.use(errorHandler);  // global error handler
 
 app.use(express.json());
 app.use(logger);
