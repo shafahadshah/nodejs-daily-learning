@@ -1,5 +1,5 @@
 {
-  "name": "26-express-crud-full-api",
+  "name": "26-express-users-crud-api",
   "version": "1.0.0",
   "description": "Full CRUD API for Items",
   "main": "server.js",
