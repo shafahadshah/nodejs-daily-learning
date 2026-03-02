@@ -1,0 +1,15 @@
+{
+  "name": "31-mongodb-integration",
+  "version": "1.0.0",
+  "description": "MongoDB integration with Node.js and Express",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.0.0"
+  }
+}
