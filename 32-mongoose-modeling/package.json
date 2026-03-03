@@ -1,0 +1,15 @@
+{
+  "name": "32-mongoose-modeling",
+  "version": "1.0.0",
+  "description": "Mongoose Schemas Validation and Relations",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.3.0"
+  }
+}
