@@ -1,0 +1,6 @@
+[
+  { "product": "Laptop", "category": "Electronics", "price": 900, "quantity": 2 },
+  { "product": "Phone", "category": "Electronics", "price": 600, "quantity": 3 },
+  { "product": "Shoes", "category": "Fashion", "price": 80, "quantity": 4 },
+  { "product": "T-shirt", "category": "Fashion", "price": 30, "quantity": 6 }
+]
