@@ -1,0 +1,13 @@
+{
+  "name": "database-aggregation-reports",
+  "version": "1.0.0",
+  "description": "MongoDB aggregation example for generating reports and statistics",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node seedData.js",
+    "report": "node admin-report.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  }
+}
