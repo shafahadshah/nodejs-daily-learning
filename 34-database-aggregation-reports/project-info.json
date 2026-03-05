@@ -1,0 +1,5 @@
+{
+  "project": "Database Aggregation Reports",
+  "type": "Node MongoDB Aggregation",
+  "goal": "Generate statistics reports"
+}
