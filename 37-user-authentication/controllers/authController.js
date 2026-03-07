@@ -32,3 +32,32 @@ exports.signup = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
+exports.login = async (req, res) => {
+  try {
+
+    const { email, password } = req.body;
+
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      return res.status(400).json({ message: "Invalid credentials" });
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
+
+    if (!isMatch) {
+      return res.status(400).json({ message: "Invalid credentials" });
+    }
+
+    res.json({
+      id: user._id,
+      name: user.name,
+      email: user.email,
+      token: generateToken(user._id)
+    });
+
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
