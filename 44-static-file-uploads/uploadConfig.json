@@ -1,0 +1,9 @@
+{
+  "uploadFolder": "uploads",
+  "maxFileSizeMB": 5,
+  "allowedTypes": [
+    "image/png",
+    "image/jpeg",
+    "application/pdf"
+  ]
+}
