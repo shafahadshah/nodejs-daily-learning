@@ -1,0 +1,26 @@
+{
+  "name": "44-static-file-uploads",
+  "version": "1.0.0",
+  "description": "Static file serving and file upload API using Express and Multer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "multer",
+    "file-upload",
+    "static-files"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
