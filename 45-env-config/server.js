@@ -1,10 +1,13 @@
 import express from "express";
 import { config } from "./config.js";
+import { connectDB } from "./db.js";
 
 const app = express();
 
+connectDB();
+
 app.get("/", (req, res) => {
-  res.send("API Running");
+  res.json({ message: "Server Running" });
 });
 
 app.listen(config.port, () => {
