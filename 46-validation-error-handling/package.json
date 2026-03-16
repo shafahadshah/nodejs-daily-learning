@@ -1,0 +1,13 @@
+{
+  "name": "validation-error-handling",
+  "version": "1.0.0",
+  "description": "Express request validation and structured error responses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  }
+}
