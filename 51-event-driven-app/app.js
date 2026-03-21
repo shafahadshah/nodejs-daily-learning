@@ -1,3 +1,4 @@
+// create app
 const eventBus = require("./eventBus");
 require("./userEvents");
 require("./orderEvents");
