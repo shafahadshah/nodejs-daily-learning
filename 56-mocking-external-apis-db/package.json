@@ -1,0 +1,14 @@
+{
+  "name": "56-mocking-external-apis-db",
+  "version": "1.0.0",
+  "main": "56-mocking.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
