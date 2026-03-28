@@ -1,0 +1,14 @@
+{
+  "name": "57-test-coverage-istanbul-nyc",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text --reporter=html"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  }
+}
