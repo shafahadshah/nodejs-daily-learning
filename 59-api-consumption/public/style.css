@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+}
