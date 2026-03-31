@@ -1,0 +1,15 @@
+// commit: init express project
+{
+  "name": "60-form-handling",
+  "version": "1.0.0",
+  "description": "Form submit and validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "body-parser": "^1.20.2"
+  }
+}
