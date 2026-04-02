@@ -1,0 +1,14 @@
+{
+  "name": "redis-caching-layer",
+  "version": "1.0.0",
+  "description": "Node.js Redis caching example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^4.6.7",
+    "axios": "^1.6.0"
+  }
+}
